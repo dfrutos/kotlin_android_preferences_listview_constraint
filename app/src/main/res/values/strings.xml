@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Apunte7Activity</string>
+    <string name="title_activity_email">EmailActivity</string>
 </resources>

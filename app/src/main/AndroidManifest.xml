@@ -13,6 +13,11 @@
         android:theme="@style/Theme.Apunte7Activity"
         tools:targetApi="31">
         <activity
+            android:name=".EmailActivity"
+            android:exported="false"
+            android:label="@string/title_activity_email"
+            android:theme="@style/Theme.Apunte7Activity" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"

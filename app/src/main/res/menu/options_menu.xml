@@ -6,4 +6,8 @@
     <item
         android:id="@+id/action_option2"
         android:title="Opción 2" />
+
+    <item
+        android:id="@+id/action_option3"
+        android:title="Enviar un email" />
 </menu>

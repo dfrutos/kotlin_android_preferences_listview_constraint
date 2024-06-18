@@ -1,5 +1,6 @@
 package ar.com.damianfrutos.apunte7activity
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -100,6 +101,13 @@ class MainActivity : ComponentActivity() {
             }
             R.id.action_option2 -> {
                 showToast("Opción 2 seleccionada")
+                true
+            }
+            //Envio a una activity para enviar un email
+            R.id.action_option3 -> {
+                showToast("Opción 3 seleccionada")
+                val intent = Intent(this,EmailActivity::class.java)
+                startActivity(intent)
                 true
             }
             else -> super.onOptionsItemSelected(item)
